@@ -1,0 +1,63 @@
+.active{
+    background-color: #b8860b !important;
+}
+#player{
+    width: 100%;
+}
+#playlist>table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 110%;
+    border-radius: 100%;
+}
+#playlist>table:hover {
+    cursor: pointer;
+}
+#playlist>table tr:first-child td:first-child {
+    border-radius: 10px 0 0 0 !important;
+}
+#playlist>table tr:first-child td:last-child {
+    border-radius: 0 10px 0 0 !important;
+}
+#playlist>table tr:last-child td:first-child {
+    border-radius: 0 0 0 10px !important;
+}
+#playlist>table tr:last-child td:last-child {
+    border-radius: 0 0 10px 0 !important;
+}
+#playlist>table tr td{
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+#playlist>table tr td:first-child {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#playlist>table tr:nth-child(odd) {
+    background-color: #8bb0d6;
+}
+#playlist>table tr:nth-child(even){
+    background-color: #67a5cb;
+}
+button:hover{
+    cursor: pointer;
+}
+body{
+    background-color: #E0E0FF;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    margin: auto;
+    display: block;
+}
+.center{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1,
+h2,
+h3{
+    text-align: center;
+}
