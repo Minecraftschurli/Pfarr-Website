@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD']=='POST'){
     $GLOBALS['key'] = $_POST['key'];
 }
-$GLOBALS['loggedIn'] = isset($GLOBALS['key'])&&($GLOBALS['key'] === 'q893Zv2O');
+$GLOBALS['loggedIn'] = isset($GLOBALS['key'])&&($GLOBALS['key'] === 'Key');
 ?>
 <!DOCTYPE html>
 <html lang="de">
